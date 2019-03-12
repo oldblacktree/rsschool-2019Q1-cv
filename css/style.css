@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(#10b87e 340px, #e7e7e7 340px);
+  font-size: 20px;
+}
+h2 {
+  padding: 30px 0 20px;
+  text-align: center;
+  font-size: 30px;
+  color: #10b87e;
+  background-color: #e7e7e7;
+}
+h3 {
+  padding: 10px 50px 0;
+}
+
+p {
+  padding: 10px;
+  text-indent: 1.2em;
+}
+
+.page {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+header {
+  min-height: 200px;
+  padding-top: 50px;
+  color: #fff;
+}
+
+.header-title {
+  line-height: 1em;
+  font-size: 45px;
+}
+
+.header-subtitle {
+  font-size: 30px;
+}
+
+.about {
+  display: flex;
+  justify-content: justify;
+}
+@media screen and (max-width: 820px){
+  .about {
+    flex-direction: column;
+  }
+}
+.photo {
+  width: 300px;
+  font-size: 0;
+}
+
+.about-column {
+  flex-grow: 1;
+}
+
+.contact {
+  height: 220px;
+  background-color: #fff;
+}
+
+.social {
+  background-color: #10b87e;
+  height: 80px;
+}
+
+.social a {
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.social a:hover {
+  background-color: #37c684;
+}
+
+.social a:active {
+  background-color: #1c724b;
+}
+
+.contact {
+  padding: 15px;
+}
+
+.contact table {
+  height: 180px;
+  width: 450px;
+  font-size: 25px;
+}
+
+.contact table th {
+  text-align: left;
+}
+
+.contact table a {
+  color: #161616;
+}
+
+.contact table a:hover {
+  color: #383838;
+  text-decoration: none;
+}
+
+.contact table a:active {
+  color: #000;
+  text-decoration: none;
+}
+
+.skills ul {
+  padding-left: 60px;
+}
+
+section:nth-of-type(n+2){
+  background-color: #fff;
+}
+.work p {
+  margin-bottom: 20px;
+}
