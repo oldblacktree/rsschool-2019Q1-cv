@@ -123,3 +123,6 @@ header {
 section:nth-of-type(n+2){
   background-color: #fff;
 }
+.work p {
+  margin-bottom: 20px;
+}
